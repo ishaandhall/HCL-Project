@@ -1,0 +1,91 @@
+{
+  "name": "Typical student",
+  "accounts": [
+    {
+      "platform": "Instagram",
+      "public": true,
+      "two_factor": false,
+      "password_reused": true,
+      "last_active_days": 30,
+      "shares": [
+        "email",
+        "phone",
+        "birthdate"
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "public": true,
+      "two_factor": false,
+      "password_reused": true,
+      "last_active_days": 500,
+      "shares": [
+        "email"
+      ]
+    },
+    {
+      "platform": "Snapchat",
+      "public": true,
+      "two_factor": false,
+      "password_reused": true,
+      "last_active_days": 20,
+      "shares": [
+        "phone"
+      ]
+    },
+    {
+      "platform": "X (Twitter)",
+      "public": true,
+      "two_factor": false,
+      "password_reused": true,
+      "last_active_days": 400,
+      "shares": []
+    },
+    {
+      "platform": "Gmail",
+      "public": false,
+      "two_factor": true,
+      "password_reused": false,
+      "last_active_days": 1,
+      "shares": [
+        "email"
+      ]
+    },
+    {
+      "platform": "LinkedIn",
+      "public": false,
+      "two_factor": true,
+      "password_reused": false,
+      "last_active_days": 10,
+      "shares": []
+    },
+    {
+      "platform": "GitHub",
+      "public": false,
+      "two_factor": true,
+      "password_reused": false,
+      "last_active_days": 5,
+      "shares": []
+    },
+    {
+      "platform": "Amazon",
+      "public": false,
+      "two_factor": true,
+      "password_reused": false,
+      "last_active_days": 15,
+      "shares": []
+    }
+  ],
+  "breaches": [
+    {
+      "site": "ShopSite",
+      "data": [
+        "email"
+      ]
+    }
+  ],
+  "search_hits": {
+    "name_results": 6,
+    "address_listed": false
+  }
+}
